@@ -5422,7 +5422,7 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  background-color: #5ceeeb;
+  background-color: #ee7173;
   width: 100%;
   height: 56px;
   line-height: 56px; }
@@ -5897,7 +5897,7 @@ small {
     width: 15%;
     min-width: 50px; }
     .tabs .tab a {
-      color: #5feee3;
+      color: #eeb2c7;
       display: block;
       width: 100%;
       height: 100%;
@@ -5909,15 +5909,15 @@ small {
       -ms-transition: color .25s ease;
       transition: color .25s ease; }
       .tabs .tab a:hover {
-        color: #c7f4f3; }
+        color: #f49f97; }
     .tabs .tab.disabled a {
-      color: #d5f3ed;
+      color: #f39c8d;
       cursor: default; }
   .tabs .indicator {
     position: absolute;
     bottom: 0;
     height: 2px;
-    background-color: #caf6f4;
+    background-color: #f68162;
     will-change: left, right; }
 
 .hide-tab-scrollbar {
