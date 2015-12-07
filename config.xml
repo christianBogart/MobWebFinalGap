@@ -5,9 +5,9 @@
             versionCode	=	"11"		
             version	=	"1.0.1"	>	
 				<!--	versionCode	is	opIonal	and	Android	only	-->	
-				<name>Barcode Scanner</name>	
+				<name>PC Fix</name>	
 				<description>	
-								App for scanning barcodes
+								Find a PC repairer that suits your needs
 				</description>	
 				<author	href="http://www.ashesi.edu.gh"	email="ghkid4lyf@gmail.com">	
 								Christian biassey-bogart
