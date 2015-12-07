@@ -1,0 +1,19 @@
+<?xml	version="1.0"	encoding="UTF-8"	?>	
+    <widget	xmlns =	"http://www.w3.org/ns/widgets"	
+            xmlns:gap = "http://phonegap.com/ns/1.0"	
+            id =	"com.bogart.pg2"	
+            versionCode	=	"11"		
+            version	=	"1.0.1"	>	
+				<!--	versionCode	is	opIonal	and	Android	only	-->	
+				<name>Barcode Scanner</name>	
+				<description>	
+								App for scanning barcodes
+				</description>	
+				<author	href="http://www.ashesi.edu.gh"	email="ghkid4lyf@gmail.com">	
+								Christian biassey-bogart
+	
+				</author>	
+        <!--<icon src="icon.png"	/>	
+        <gap:splash src="splash.png"/>	-->
+	<gap:plugin name="com.phonegap.plugins.barcodescanner" version="2.2.0" />
+</widget>	
