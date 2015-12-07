@@ -16,7 +16,7 @@ function sendRequest (url)
 			            {
 			 				var user_name = encodeURI(document.getElementById("username").value);
 							var user_pass = encodeURI(document.getElementById("password").value);
-						   var url = "assets/php/controller.php?cmd=1&user_name="+user_name+"&user_pass="+user_pass;
+						   var url = "http://cs.ashesi.edu.gh/~csashesi/class2016/christian-biassey-bogart/MobileWeb/MoblieWebFinalProject/assets/php/controller.php?cmd=1&user_name="+user_name+"&user_pass="+user_pass;
 			               var obj = sendRequest (url);
 						
 							var i = 0;
@@ -56,7 +56,7 @@ function sendRequest (url)
                             var user_pass = encodeURI(document.getElementById("password").value);
 							var user_pass2 = encodeURI(document.getElementById("password-again").value);
                             
-                            var url = "assets/php/controller.php?cmd=2&user_fullname="+user_fullname+"user_name="+user_name+"&user_email="+user_email+"&user_pass="+user_pass;
+                            var url = "http://cs.ashesi.edu.gh/~csashesi/class2016/christian-biassey-bogart/MobileWeb/MoblieWebFinalProject/assets/php/controller.php?cmd=2&user_fullname="+user_fullname+"user_name="+user_name+"&user_email="+user_email+"&user_pass="+user_pass;
                             
                             if (user_pass === user_pass2){
 						   
@@ -101,7 +101,7 @@ function sendRequest (url)
                             var add_price = encodeURI(document.getElementById("add_price").value);
                             var add_phone = encodeURI(document.getElementById("add_phone").value);
                             
-                            var url = "assets/php/controller.php?cmd=6&add_name="+add_name+"&add_title="+add_title+"&user_id="+add_user_id+"&add_category="+add_category+"&add_price="+add_price+"&add_location="+add_location+"&add_phone="+add_phone;
+                            var url = "http://cs.ashesi.edu.gh/~csashesi/class2016/christian-biassey-bogart/MobileWeb/MoblieWebFinalProject/assets/php/controller.php?cmd=6&add_name="+add_name+"&add_title="+add_title+"&user_id="+add_user_id+"&add_category="+add_category+"&add_price="+add_price+"&add_location="+add_location+"&add_phone="+add_phone;
                             var obj = sendRequest (url);
                             
                             get_ads();
@@ -137,7 +137,7 @@ function sendRequest (url)
                 $ ( document ).ready ( function ( )
 		            {
 		 			  
-					   var url = "assets/php/controller.php?cmd=4";
+					   var url = "http://cs.ashesi.edu.gh/~csashesi/class2016/christian-biassey-bogart/MobileWeb/MoblieWebFinalProject/assets/php/controller.php?cmd=4";
                         
 		               var obj = sendRequest (url);
 					
@@ -208,7 +208,7 @@ function sendRequest (url)
                 $ ( document ).ready ( function ( )
 		            {
 		 			  
-					   var url = "assets/php/controller.php?cmd=5&ad_id="+id;
+					   var url = "http://cs.ashesi.edu.gh/~csashesi/class2016/christian-biassey-bogart/MobileWeb/MoblieWebFinalProject/assets/php/controller.php?cmd=5&ad_id="+id;
                         
 		               var obj = sendRequest (url);
 					
@@ -244,7 +244,7 @@ function sendRequest (url)
                         $ ( document ).ready ( function ( )
 		            {
 		 			  
-					   var url = "assets/php/controller.php?cmd=7&cat="+category;
+					   var url = "http://cs.ashesi.edu.gh/~csashesi/class2016/christian-biassey-bogart/MobileWeb/MoblieWebFinalProject/assets/php/controller.php?cmd=7&cat="+category;
                         
 		               var obj = sendRequest (url);
 					
@@ -314,7 +314,7 @@ function sendRequest (url)
                         $ ( document ).ready ( function ( )
 		            {
 		 			  
-					   var url = "assets/php/controller.php?cmd=8&loc="+location;
+					   var url = "http://cs.ashesi.edu.gh/~csashesi/class2016/christian-biassey-bogart/MobileWeb/MoblieWebFinalProject/assets/php/controller.php?cmd=8&loc="+location;
                         
 		               var obj = sendRequest (url);
 					
