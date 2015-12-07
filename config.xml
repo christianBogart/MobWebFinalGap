@@ -1,19 +1,20 @@
-<?xml	version="1.0"	encoding="UTF-8"	?>	
-    <widget	xmlns =	"http://www.w3.org/ns/widgets"	
-            xmlns:gap = "http://phonegap.com/ns/1.0"	
-            id =	"com.bogart.pg2"	
-            versionCode	=	"11"		
-            version	=	"1.0.1"	>	
-				<!--	versionCode	is	opIonal	and	Android	only	-->	
-				<name>PC Fix</name>	
-				<description>	
-								Find a PC repairer that suits your needs
-				</description>	
-				<author	href="http://www.ashesi.edu.gh"	email="ghkid4lyf@gmail.com">	
-								Christian biassey-bogart
-	
-				</author>	
-        <!--<icon src="icon.png"	/>	
-        <gap:splash src="splash.png"/>	-->
-	<gap:plugin name="com.phonegap.plugins.barcodescanner" version="2.2.0" />
+<?xml	version="1.01"	encoding="UTF-8"	?>
+<widget	xmlns =	"http://www.w3.org/ns/widgets"
+		   xmlns:gap = "http://phonegap.com/ns/1.0"
+		   id =	"com.cbogart.pg1"
+		   versionCode	=	"11"
+		   version	=	"1.0.0"	>
+	<!--	versionCode	is	opIonal	and	Android	only	-->
+	<name>Bogart POS teller</name>
+	<description>
+		App for recording water meter info
+	</description>
+	<author	href="http://www.ashesi.edu.gh"	email="ghkid4lyf@gmail.com">
+		B Bogart
+	</author>
+	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+	<allow-navigation href="data:*" />
+	<allow-intent href="*" />
+	<access origin="*" />
+
 </widget>	
