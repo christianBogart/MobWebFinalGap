@@ -17,39 +17,6 @@
         PC Fix
     </title>
 
-    <script type="text/javascript" src="assets/js/persist.js"></script>
-    <script type="text/javascript" src="assets/js/jquery-2.1.3.js"></script>
-    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
-
-    <script>
-        window.onload = function() {
-            details.get('user_id', function(ok, id) {
-                if (ok)
-                    if(id!=null){
-
-                        details.get('user_fullname', function(ok, name) {
-                            if (ok)
-                                var div = document.getElementById('display_name');
-                            div.innerHTML = name + "<i class='material-icons right'>arrow_drop_down</i>";
-                            var div = document.getElementById('small_display_name');
-                            div.innerHTML = name;
-
-                            get_ads();
-                        });
-                    }
-                    else{
-                        window.location.replace("index.html");
-                    }
-
-            });
-
-
-        };
-
-
-    </script>
-
 
 </head>
 <body>
@@ -191,7 +158,7 @@
     </div>
 </div>
 
-<!-- rss Ad Modal -->
+<!-- rss Ad Modal
 <div id="rss_modal" class="modal">
     <div class="container">
         <ul class="collection" >
@@ -199,7 +166,7 @@
             </div>
         </ul>
     </div>
-</div>
+</div>-->
 
 
 
@@ -266,6 +233,38 @@
 
 
 <!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="assets/js/persist.js"></script>
+<script type="text/javascript" src="assets/js/jquery-2.1.3.js"></script>
+<script type="text/javascript" src="assets/js/materialize.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="assets/js/cordova-js/src/cordova.js"></script>
 
+<script>
+    window.onload = function() {
+        details.get('user_id', function(ok, id) {
+            if (ok)
+                if(id!=null){
+
+                    details.get('user_fullname', function(ok, name) {
+                        if (ok)
+                            var div = document.getElementById('display_name');
+                        div.innerHTML = name + "<i class='material-icons right'>arrow_drop_down</i>";
+                        var div = document.getElementById('small_display_name');
+                        div.innerHTML = name;
+
+                        get_ads();
+                    });
+                }
+                else{
+                    window.location.replace("index.php");
+                }
+
+        });
+
+
+    };
+
+
+</script>
 </body>
 </html>
